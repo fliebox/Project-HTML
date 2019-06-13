@@ -1,0 +1,172 @@
+h1, strong, em
+{
+    color: red;
+}
+/*Genre on peut faire des commentaires*/
+/* pour d'autre couleur, on peut utilisé  rgb(240,96,204)
+	On trouve ces donées http://www.colorpicker.com */
+
+.Image
+{
+	color: black;
+}
+
+.slt
+{
+	font-size: 1.2em;
+}
+
+/* Selecteur Universel = * / h3 em = tout les em dans le h3 / h3+p = 
+   premier p situé apres un h3 / ... https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605060-mettez-en-place-le-css */
+
+p
+{
+    font-size: medium;
+}
+h3
+{
+    font-size: 1.3em;
+}
+
+/* Differentes tailles :xx-small: minuscule ;
+						x-small: très petit ;
+						small: petit ;
+						medium: moyen ;
+						large: grand ;
+						x-large: très grand ;
+						xx-large: euh… gigantesque.   */
+
+/* Ou plus précis : 0.5em / 1em /1.8em a la place de large */
+
+/* Ou encore mettre le texte en italique = italic / oblique = oblique / ou normal =normal */
+
+h3
+{
+	font-family: 'rubik', "Times New Roman", "Arial black";
+}
+
+@font-face{
+	font-family: 'rubik';
+	src: url('Rubik-Black.ttf') format('truetype');
+}
+
+strong
+{
+	font-weight: bold;
+}
+
+/* Le paragraphe important est un gras*/
+
+.ligne
+{
+	text-decoration: overline;
+}
+
+.barre
+{
+	text-decoration: line-through;
+}
+
+.souligne
+{
+	text-decoration: underline;
+}
+
+/* on peut aussi modifier l'opacité grace a: opacity:0.6;  */
+
+.presentation
+{
+	text-align: center;
+	font-size: 1.2em
+	width: 100%;
+}
+
+/* left ou right ou encore justify */
+
+.imageflottante
+{
+    float: left;
+}
+
+.stop
+{
+	clear:both;
+}
+
+/* On travaille sur toute la page donc body */
+body
+{
+	background-color: white;  /*Le fond sera noir */
+	color: black;  /*Le texte sera blanc */
+}
+
+body   /* L'image de fond peut s'appliquer seulement sur un texte ou autre. Pour cela il faut modifier le body */
+{
+    background-image: url("fond1.png");
+    background-attachment: fixed;
+}
+
+a  /* Apparence des liens par défault */
+{
+	text-decoration: none;
+	color:gray;
+	front-style:italic;
+}
+
+a:hover   /*Apparence des liens au survol de la souris */
+{
+	text-decoration: underline;
+	color: green;
+}
+
+/*active=clique / focus=selectionné */
+
+a:visited
+{
+	color: #424145;
+}
+
+footer
+{
+	border: 3px #0B5DA5 groove;
+	padding: 12px;     /*marge interieur de 12 pixel de chaque coté   /  margin =marge exterieur*/
+}
+
+.logo
+{
+    float: left;
+}
+
+p
+{
+	max-width: 100%;  /*largeur max */
+}
+
+nav
+{
+	position:fixed;
+	right: 17px;
+	bottom: 0px;
+}
+
+
+.j1
+{
+	display: inline-block;
+    float: left;
+    border: 1.8px inset black;
+    margin-bottom: : 25px;
+    margin-right: 52%;
+    margin-top: 25px;
+}
+
+.j2
+{
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: : 25px;
+	margin-right: 52%;
+    border: 1.8px outset black;
+    height: 20%;
+    overflow: hidden
+}

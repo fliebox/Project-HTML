@@ -1,0 +1,19 @@
+p
+{
+    font-size: medium;
+}
+h1
+{
+    font-size: large;
+}
+
+/* Differentes tailles :xx-small: minuscule ;
+						x-small: très petit ;
+						small: petit ;
+						medium: moyen ;
+						large: grand ;
+						x-large: très grand ;
+						xx-large: euh… gigantesque.   */
+
+/* Ou plus précis : 0.5em / 1em /1.8em a la place de large */
+
