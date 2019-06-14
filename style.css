@@ -76,6 +76,9 @@ strong
 
 .presentation
 {
+	font-family: "Trebuchet MS";
+	border-radius: 10px;
+	background-image: url("fond.");
 	text-align: center;
 	font-size: large;
 	width: 100%;
@@ -178,20 +181,19 @@ nav
 	margin-bottom: 100px;
 }
 
-
-@media all and (max-device-width: 480px)
+.j4
 {
-    /* Vos règles CSS pour les mobiles ici */
 }
 
 
 .twitter
+@media all and (max-device-width: 480px)
 {
 	display: inline-block;
-	margin-left: 500px
+    /* Vos règles CSS pour les mobiles ici */
 }
 
-.twitter:
+
 
 
 .cedrix
@@ -200,10 +202,22 @@ nav
 }
 
 
+
 #page
 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-around;
+}
+
+.j1,.j2,.j3,.j4
+{
+	background:#E9EDF1; 
+   	opacity /*   :   */0.8;
+}
+
+.code
+{
+	opacity: 2;
 }
