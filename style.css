@@ -118,7 +118,7 @@ a  /* Apparence des liens par défault */
 {
 	text-decoration: none;
 	color:gray;
-	front-style:italic;
+	font-style: italic;
 }
 
 a:hover   /*Apparence des liens au survol de la souris */
@@ -157,7 +157,7 @@ nav
 	bottom: 0px;
 }
 
-.j1,.j2,.j3
+.j1,.j2,.j3,.j4
 {
 	 border: 1.8px inset black;
 	 width: 42%
@@ -178,18 +178,22 @@ nav
 	margin-left: 100px
 	float:;
 	margin-top: 25px;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 }
 
 .j4
 {
+	margin-right: 100px
+	float:;
+	margin-top: 25px;
+	margin-bottom: 200px
+}
 }
 
 
-.twitter
+
 @media all and (max-device-width: 480px)
 {
-	display: inline-block;
     /* Vos règles CSS pour les mobiles ici */
 }
 
